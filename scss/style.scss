@@ -1,0 +1,790 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.CarRental{
+	background:#fff;
+	color:#000;
+	.navbar{
+		width:100%;
+		margin-top:20px;
+		.navbar_main{
+			width:96%;
+			margin:0 auto;
+			.navbar_left{
+				width:38%;
+				float: left;
+			}
+			.navbar_right{
+				width:58%;
+				float:right;
+				a{
+					text-decoration: none;
+					color:#000;
+					font-family: "Montserrat", Arial, Tahoma, sans-serif;
+					font-size: 17px;
+					line-height: 60px;
+					font-weight: 400;
+					text-align: left;
+					margin-left:48px;
+				}
+				a:hover{
+					color:#fd3e04;
+				}
+				.active{
+					color: #fd3e04;
+				}
+				.menu_link{
+					background: rgba(0,0,0,.04);
+					padding:13px 32px;
+					box-sizing: border-box;
+				}
+				.menu_link:hover{
+					background: rgba(0,0,0,.07);
+					color:#000;
+				}
+			}
+		}
+	}
+	.banner{
+		width:100%;
+		background: #fff;
+		.banner_main{
+			.banner_left{
+				width:40%;
+				float:left;
+				.banner_left-main{
+					margin-left: 140px;
+					margin-top: 80px;
+					display: inline-block;
+					h2{
+						color:#000;
+						font-family: Krona One;
+						font-size: 70px;
+						line-height: 80px;
+						letter-spacing: -1px;
+						font-weight: 400;
+						text-align: left;
+					}
+					.text{
+						color: #303030;
+						font-family: "Montserrat", Arial, Tahoma, sans-serif;
+						font-size: 16px;
+						line-height: 29px;
+						font-weight: 400;
+						margin-top: -40px;
+						border-bottom: 1px solid #DEDEDE;
+						padding: 30px 0px;
+						box-sizing: border-box;
+						display: inline-block;
+					}
+					.layer{
+						margin-top:0px;
+
+						.layer_left{
+							float: left;
+							margin-right:50px;
+							p{
+								border-bottom: none;
+								margin-top:15px;
+								img{
+									margin-right: 10px;
+								}
+								span{
+									color: #000;
+									font-family: Montserrat;
+									font-size: 18px;
+									line-height: 28px;
+									font-weight: 400;
+								}
+							}
+						}
+					}
+				}
+			}
+			.banner_right{
+				width:60%;
+				margin-top: 150px;
+				float:left;
+				img{
+					width: 100%;
+				}
+			}
+			.banner_bottom{
+				width: 100%;
+				display: inline-block;
+				.bottom_main{
+					width:80%;
+					margin:0 auto;
+					.bottom_left{
+						float: left;
+						margin:120px 0px;
+						a{
+							text-decoration: none;
+							background:#FD3E04;
+							font-family: Roboto;
+							font-size: 20px;
+							line-height: 60px;
+							font-weight: 500;
+							color:#fff;
+							padding: 0px 36px;
+							float: left;
+							box-sizing: border-box;
+						}
+						span{
+							float:left;
+							margin-left: 50px;
+							p{
+								color: #000;
+								font-family: Krona One;
+								font-size: 40px;
+								line-height: 40px;
+								font-weight: 400;
+								margin-top: -5px;
+							}
+							h6{
+								color: #a2a2a2;
+								font-family : Krona One;
+								font-size: 14px;
+								line-height: 24px;
+								font-weight: 400;
+								margin-top: -35px;
+							}
+						}
+					}
+					.bottom_right{
+						float: right;
+						margin: 120px 0px;
+					}
+				}
+			}
+		}
+	}
+	.colour{
+		background:#F7F7F7;
+		width:65%;
+		height:900px;
+		margin-top: -900px;
+	}
+	.section_group{
+		background:#0F0F0F;
+		width: 100%;
+		.section_group_main{
+			width:80%;
+			margin: 0 auto;
+			.wrap-inner{
+				width:100%;
+				margin:120px 0;
+				display: inline-block;
+				.content{
+					width:31%;
+					margin-right:2%;
+					box-shadow: gray;
+					float:left;
+					img{
+						float:left;
+						margin-right: 20px;
+					}
+					h4{
+						color: #fd3e04;
+						font-family: "Krona One", Arial, Tahoma, sans-serif;
+						font-size: 22px;
+						line-height: 32px;
+						letter-spacing: -1px;
+						font-weight: 400;
+						margin-top: 0px;
+					}
+					p{
+						color: #fff;
+						font-family: "Montserrat", Arial, Tahoma, sans-serif;
+						font-size: 16px;
+						line-height: 29px;
+						font-weight: 400;
+						margin-top: -18px;
+						margin-left: 75px;
+						letter-spacing: 1px;
+					}
+				}
+			}
+		}
+	}
+	.vehicle{
+		background: #fff;
+		width: 100%;
+		.vehicle_main{
+			width:80%;
+			margin: 0 auto;
+			.vehicle_margin{
+				margin:80px 0px;
+				h3{
+					color: #161922;
+					font-family : "Krona One", Arial, Tahoma, sans-serif;
+					font-size: 36px;
+					line-height: 46px;
+					letter-spacing: -1px;
+					font-weight: 400;
+					text-align: center;
+				}
+				.image{
+					width:100%;
+					.image_content{
+						width: 33.33%;
+						float:left;
+						.image_padding{
+							padding: 60px 42px;
+							box-sizing:border-box;
+							.upper{
+								width:100%;
+								h4{
+									text-align: left;
+									color: #161922;
+									font-family: "Krona One", Arial, Tahoma, sans-serif;
+									font-size: 22px;
+									line-height: 32px;
+									letter-spacing: -1px;
+									font-weight: 400;
+									span{
+										color: #a2a2a2;
+										font-family: "Krona One", Arial, Tahoma, sans-serif;
+										font-size: 14px;
+										line-height: 32px;
+										letter-spacing: -1px;
+										font-weight: 400;
+									}
+								}
+								p{
+									margin-top: -65px;
+									color: #fd3e04;
+									font-family: "Montserrat", Arial, Tahoma, sans-serif;
+									font-size: 18px;
+									line-height: 31px;
+									text-align: right;
+									letter-spacing: 1px;
+								}
+							}
+							.image_main{
+								img{
+									width: 100%;
+								}
+							}
+							h4{
+								color: #161922;
+								font-family: "Krona One", Arial, Tahoma, sans-serif;
+								font-size: 18px;
+								line-height: 28px;
+								letter-spacing: 0px;
+								text-align: center;
+								font-weight: 400;
+							}
+							
+							.describe{
+								width:100%;
+								.describe-img{
+									span{
+										float:left;
+										margin:0px 22px;
+										img{
+											margin-left: 10px;
+										}
+									}
+								}
+								.describe-write{
+									span{
+										float: left;
+										margin:0px 15px;
+										p{
+											color: #303030;
+											font-family: "Montserrat", Arial, Tahoma, sans-serif;
+											font-size: 16px;
+											line-height: 29px;
+											font-weight: 400;
+											text-align: center;
+											letter-spacing: 1px;
+										}
+									}
+									
+								}
+							}
+							.link_a{
+								text-align: center;
+								a{
+									text-decoration: none;
+									color:#FF0000;
+									font-family: "Montserrat", Arial, Tahoma, sans-serif;
+									font-size: 17px;
+									line-height: 60px;
+									font-weight: 400;
+									text-align: center;
+									display: inherit;
+								}
+									.aliquam{
+									text-decoration: none;
+									color:#fff;
+									font-family: "Montserrat", Arial, Tahoma, sans-serif;
+									font-size: 17px;
+									line-height: 60px;
+									font-weight: 400;
+									text-align: center;
+									display: inherit;
+									background:#fd3e04;
+									
+									padding:10px 20px;
+									box-sizing: border-box; 
+									display: inline;
+								}
+								.aliquam:hover{
+									color:#fff;
+									text-decoration: none;
+								}
+								a:hover{
+									text-decoration: underline;
+									color:#fd3e04;
+								}
+							}
+									
+						}
+					}
+				}
+				.link_a_bottom{
+					text-align: center;
+					p{
+						color: #303030;
+						font-family: "Montserrat", Arial, Tahoma, sans-serif;
+						font-size: 16px;
+						line-height: 29px;
+						font-weight: 400;
+						margin:0px 165px;
+						text-align: center;
+						display: inline-block;
+						letter-spacing: 1px
+					}
+					.link_bottom{
+						color: #000;
+						text-decoration: none;
+						font-family: "Montserrat", Arial, Tahoma, sans-serif;
+						font-size: 16px;
+						line-height: 29px;
+						font-weight: 400;
+						text-align: center;
+						background: #F8F8F8;
+						padding: 10px 20px;
+						box-sizing: border-box;
+						letter-spacing: 1px;
+						margin-top: 50px;
+						display: inline-block;
+					}
+					.link_bottom:hover{
+						background: #E6E6E6;
+					}
+
+				}	
+			}
+		}
+	}
+	.rent{
+		width: 100%;
+		background: url("../img/carrental2-sectionbg1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height:950px;
+		.rent_main{
+			width: 80%;
+			margin: 0 auto;
+			.rent_margin{
+				h2{
+					color: #ffffff;
+					font-family: "Krona One", Arial, Tahoma, sans-serif;
+					font-size: 50px;
+					line-height: 60px;
+					font-weight: 400;
+					margin-top: 300px;
+					display: inline-block;
+				}
+				.icon{
+					width:100%;
+					border-top: 1px solid rgba(255,255,255,0.2);
+					padding: 60px 0px;
+					box-sizing: border-box;
+					.icon_main{
+						width: 21%;
+						margin-right:42px;
+						float:left;
+						h4{
+							color: #fd3e04;
+							font-family: "Krona One", Arial, Tahoma, sans-serif;
+							font-size: 24px;
+							line-height: 32px;
+							letter-spacing: -1px;
+							font-weight: 400;
+						}
+						p{
+							color: #fff;
+							font-family : "Montserrat", Arial, Tahoma, sans-serif;
+							font-size: 16px;
+							line-height: 29px;
+							font-weight: 400;
+							letter-spacing: 1px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.Rental{
+		width:100%;
+		background: #fff;
+		.Rental_main{
+			width: 80%;
+			margin:0 auto;
+			.Rental_margin{
+				margin:100px 0px;
+				text-align: center;
+				h2{
+					color: #161922;
+					font-family: "Krona One", Arial, Tahoma, sans-serif;
+					font-size: 50px;
+					line-height: 60px;
+					letter-spacing: -1px;
+					font-weight: 400;
+				}
+				p{
+					color: #303030;
+					font-family: "Montserrat", Arial, Tahoma, sans-serif;
+					font-size: 16px;
+					line-height: 29px;
+					font-weight: 400;
+					margin:0px 165px;
+					letter-spacing: 1px;
+					margin-top: -15px;
+					display: inline-block;
+				}
+				.image_decribe{
+						width:100%;
+						margin-top: 50px;
+						.box_padding{
+							width:33.33%;
+							float: left;
+							margin-bottom: -20px;
+							.box{
+								padding: 15px;
+								box-sizing: border-box;
+								.box-image{
+									overflow: hidden;
+									position: relative;
+									img{
+										width: 100%;
+										transition: all .3s ease-in-out;
+									}
+									img:hover{
+										transform: scale(1.2);
+										top:0;
+										position: relative;
+									}
+								}
+								.box-content{
+									width: 100%;
+									background: #fff;
+									.box-left{
+										float: left;
+										h4{
+											color: #fd3e04;
+											font-family: "Krona One", Arial, Tahoma, sans-serif;
+											font-size: 22px;
+											letter-spacing: -1px;
+											font-weight: 400;
+											text-align: left;
+											margin-top: 0px;
+										}
+										p{
+											color: #303030;
+											font-family: "Montserrat", Arial, Tahoma, sans-serif;
+											font-size: 16px;
+											line-height: 29px;
+											font-weight: 400;
+											text-align: left;
+											margin: -25px 0px;
+											display: inherit;
+										}
+									}
+									.box-right{
+										
+										p{
+											color: #a2a2a2;
+											font-family: "Montserrat", Arial, Tahoma, sans-serif;
+											font-size: 16px;
+											line-height: 29px;
+											font-weight: 400;
+											text-align: right;
+											margin-right: 0px;
+											margin-top: 10px;
+											display: inherit;
+										}
+										h5{
+											color: #161922;
+											font-family: "Krona One", Arial, Tahoma, sans-serif;
+											font-size: 18px;
+											line-height: 28px;
+											letter-spacing: -1px;
+											font-weight: 400;
+											text-align: right;
+											margin-top: 2px;
+										}
+									}
+								}
+							}
+						}
+					}
+					.Rental_bottom{
+						text-align: center;
+						a{
+							background: rgba(0,0,0,.04);
+							padding:0px 25px;
+							box-sizing: border-box;
+							text-decoration: none;
+							color:#000;
+							font-family: "Montserrat", Arial, Tahoma, sans-serif;
+							font-size: 17px;
+							line-height: 60px;
+							font-weight: 400;
+							text-align: center;
+		    				margin-top: 60px;
+							display: inline-block;
+						}
+						a:hover{
+							background: rgba(0,0,0,.07);
+							color:#000;
+						}
+					}
+			}
+		}
+	}
+	.bottom-down{
+		width:100%;
+		background: #F7F7F7;
+		border-bottom: 1px solid #DEDEDE;
+		padding-top:60px;
+		padding-bottom: 80px;
+		margin-bottom: 0px;
+		box-sizing: border-box;
+		.bottom-margin{
+			width:80%;
+			margin: 0 auto;
+			.bottom-main{
+				width:100%;
+				.down{
+					width: 33.33%;
+					float: left;
+					p{
+						color: #303030;
+						font-family: "Montserrat", Arial, Tahoma, sans-serif;
+						font-size: 16px;
+						line-height: 29px;
+						font-weight: 400;
+					}
+					h5{
+						color: #000000;
+						font-family: "Krona One", Arial, Tahoma, sans-serif;
+						font-size: 18px;
+						line-height: 28px;
+						letter-spacing: -1px;
+						font-weight: 400;
+						i{
+							color:#fd3e04;
+							margin-right: 15px;
+							font-size: 20px;
+						}
+					}
+					.bottom-bottom{
+						margin-top: -20px;
+					}
+				}
+			}
+		}
+	}
+	.bottom-copy{
+		width:100%;
+		background: #F7F7F7;
+		padding:20px 0px;
+		margin-bottom: -16px;
+		box-sizing: border-box;
+		p{
+			color: #303030;
+			font-family: "Montserrat", Arial, Tahoma, sans-serif;
+			font-size: 16px;
+			line-height: 29px;
+			font-weight: 400;
+			width:80%;
+			margin: 0 auto;
+			a{
+				color:#FD3E04;
+				text-decoration: none;
+				letter-spacing: 1px;
+			}
+			a:hover{
+				color: #d23100;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+ 	body{
+ 		background: #fff;
+ 	}
+ 	.CarRental .navbar .navbar_main .navbar_right a {
+		margin-left: 34px;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main {
+			margin-left: 80px;
+		}
+	.CarRental .colour {
+		margin-top: -825px;
+		margin-bottom: -80px;
+	}
+	.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left {
+		margin-bottom: 0px;
+
+	}
+	.CarRental .banner .banner_main .banner_bottom .bottom_main {
+		width: 86%;
+	
+	}
+	.CarRental .section_group .section_group_main .wrap-inner .content h4 {
+		margin-left: 70px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-img span {
+		float: left;
+		margin: 0px 20px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span {
+		float: left;
+		margin: 0px 13px;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main {
+		margin-right: 48px;
+		width:20%;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding {
+		padding: 60px 30px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.CarRental .navbar .navbar_main .navbar_right a {
+		margin-left: 15px;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main {
+		margin-left: 70px;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main h2 {
+		font-size: 55px;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main .text {
+		font-size: 15px;
+	}
+	.CarRental .colour {
+		margin-top: -780px;
+		margin-bottom: -130px;
+	}
+	.CarRental .section_group .section_group_main {
+		width: 94%;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image {
+		width: 100%;
+		margin-top: -60px;
+	}
+	.CarRental .vehicle .vehicle_main {
+		width: 94%;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span {
+		margin: 0px 12px;
+	}
+	.CarRental .rent .rent_main {
+		width: 94%; 
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main {
+		margin-right: 27px;
+		width: 22%;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main p {
+		margin: 2px;
+		margin-top: -15px;
+	}
+	.CarRental .Rental .Rental_main {
+		width: 96%;
+	}
+	.CarRental .bottom-down .bottom-margin {
+		width: 93%;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down .bottom-bottom {
+		margin-top: 10px;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down h5 {
+		margin: 0px;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down p {
+		margin-top: 0px;
+	}
+	.CarRental .bottom-copy p {
+		width: 93%;
+	}
+}
+@media only screen and (max-width: 768px){
+	.CarRental .navbar .navbar_main .navbar_left {
+		width: 30%;
+	}
+	.CarRental .navbar .navbar_main .navbar_right {
+		width: 68%;
+	}
+	.CarRental .banner .banner_main .banner_right {
+		width: 50%;
+	}
+	.CarRental .banner .banner_main .banner_left {
+		width: 50%;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main {
+		margin-left: 55px;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main .layer {
+		width: 160px;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left {
+		margin-top: -15px;
+	}
+	.CarRental .banner .banner_main .banner_bottom .bottom_main {
+		width: 86%;
+	}
+	.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left {
+		margin-bottom: 0px;
+		width: 160px;
+	}
+	.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left span {
+		margin-top: -90px;
+		display: inherit;
+	}
+	.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_right img{
+		width:40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

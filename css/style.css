@@ -1,0 +1,1068 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.CarRental {
+  background: #fff;
+  color: #000;
+}
+.CarRental .navbar {
+  width: 100%;
+  margin-top: 20px;
+}
+.CarRental .navbar .navbar_main {
+  width: 96%;
+  margin: 0 auto;
+}
+.CarRental .navbar .navbar_main .navbar_left {
+  width: 38%;
+  float: left;
+}
+.CarRental .navbar .navbar_main .navbar_right {
+  width: 58%;
+  float: right;
+}
+.CarRental .navbar .navbar_main .navbar_right a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 60px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 48px;
+}
+.CarRental .navbar .navbar_main .navbar_right a:hover {
+  color: #fd3e04;
+}
+.CarRental .navbar .navbar_main .navbar_right .active {
+  color: #fd3e04;
+}
+.CarRental .navbar .navbar_main .navbar_right .menu_link {
+  background: rgba(0, 0, 0, 0.04);
+  padding: 13px 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.CarRental .navbar .navbar_main .navbar_right .menu_link:hover {
+  background: rgba(0, 0, 0, 0.07);
+  color: #000;
+}
+.CarRental .banner {
+  width: 100%;
+  background: #fff;
+}
+.CarRental .banner .banner_main .banner_left {
+  width: 40%;
+  float: left;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main {
+  margin-left: 140px;
+  margin-top: 80px;
+  display: inline-block;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main h2 {
+  color: #000;
+  font-family: Krona One;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  text-align: left;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main .text {
+  color: #303030;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  margin-top: -40px;
+  border-bottom: 1px solid #DEDEDE;
+  padding: 30px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main .layer {
+  margin-top: 0px;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left {
+  float: left;
+  margin-right: 50px;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left p {
+  border-bottom: none;
+  margin-top: 15px;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left p img {
+  margin-right: 10px;
+}
+.CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left p span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.CarRental .banner .banner_main .banner_right {
+  width: 60%;
+  margin-top: 150px;
+  float: left;
+}
+.CarRental .banner .banner_main .banner_right img {
+  width: 100%;
+}
+.CarRental .banner .banner_main .banner_bottom {
+  width: 100%;
+  display: inline-block;
+}
+.CarRental .banner .banner_main .banner_bottom .bottom_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left {
+  float: left;
+  margin: 120px 0px;
+}
+.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left a {
+  text-decoration: none;
+  background: #FD3E04;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0px 36px;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left span {
+  float: left;
+  margin-left: 50px;
+}
+.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left span p {
+  color: #000;
+  font-family: Krona One;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-top: -5px;
+}
+.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left span h6 {
+  color: #a2a2a2;
+  font-family: Krona One;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: -35px;
+}
+.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_right {
+  float: right;
+  margin: 120px 0px;
+}
+.CarRental .colour {
+  background: #F7F7F7;
+  width: 65%;
+  height: 900px;
+  margin-top: -900px;
+}
+.CarRental .section_group {
+  background: #0F0F0F;
+  width: 100%;
+}
+.CarRental .section_group .section_group_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.CarRental .section_group .section_group_main .wrap-inner {
+  width: 100%;
+  margin: 120px 0;
+  display: inline-block;
+}
+.CarRental .section_group .section_group_main .wrap-inner .content {
+  width: 31%;
+  margin-right: 2%;
+  -webkit-box-shadow: gray;
+          box-shadow: gray;
+  float: left;
+}
+.CarRental .section_group .section_group_main .wrap-inner .content img {
+  float: left;
+  margin-right: 20px;
+}
+.CarRental .section_group .section_group_main .wrap-inner .content h4 {
+  color: #fd3e04;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.CarRental .section_group .section_group_main .wrap-inner .content p {
+  color: #fff;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  margin-top: -18px;
+  margin-left: 75px;
+  letter-spacing: 1px;
+}
+.CarRental .vehicle {
+  background: #fff;
+  width: 100%;
+}
+.CarRental .vehicle .vehicle_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin {
+  margin: 80px 0px;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin h3 {
+  color: #161922;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  text-align: center;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image {
+  width: 100%;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content {
+  width: 33.33%;
+  float: left;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding {
+  padding: 60px 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper {
+  width: 100%;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper h4 {
+  text-align: left;
+  color: #161922;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper h4 span {
+  color: #a2a2a2;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper p {
+  margin-top: -65px;
+  color: #fd3e04;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .image_main img {
+  width: 100%;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding h4 {
+  color: #161922;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-weight: 400;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe {
+  width: 100%;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-img span {
+  float: left;
+  margin: 0px 22px;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-img span img {
+  margin-left: 10px;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span {
+  float: left;
+  margin: 0px 15px;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span p {
+  color: #303030;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .link_a {
+  text-align: center;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .link_a a {
+  text-decoration: none;
+  color: #FF0000;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 60px;
+  font-weight: 400;
+  text-align: center;
+  display: inherit;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .link_a .aliquam {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 60px;
+  font-weight: 400;
+  text-align: center;
+  display: inherit;
+  background: #fd3e04;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .link_a .aliquam:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .link_a a:hover {
+  text-decoration: underline;
+  color: #fd3e04;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .link_a_bottom {
+  text-align: center;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .link_a_bottom p {
+  color: #303030;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  margin: 0px 165px;
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .link_a_bottom .link_bottom {
+  color: #000;
+  text-decoration: none;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+  background: #F8F8F8;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  display: inline-block;
+}
+.CarRental .vehicle .vehicle_main .vehicle_margin .link_a_bottom .link_bottom:hover {
+  background: #E6E6E6;
+}
+.CarRental .rent {
+  width: 100%;
+  background: url("../img/carrental2-sectionbg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 950px;
+}
+.CarRental .rent .rent_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.CarRental .rent .rent_main .rent_margin h2 {
+  color: #ffffff;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-top: 300px;
+  display: inline-block;
+}
+.CarRental .rent .rent_main .rent_margin .icon {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 60px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.CarRental .rent .rent_main .rent_margin .icon .icon_main {
+  width: 21%;
+  margin-right: 42px;
+  float: left;
+}
+.CarRental .rent .rent_main .rent_margin .icon .icon_main h4 {
+  color: #fd3e04;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+.CarRental .rent .rent_main .rent_margin .icon .icon_main p {
+  color: #fff;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.CarRental .Rental {
+  width: 100%;
+  background: #fff;
+}
+.CarRental .Rental .Rental_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.CarRental .Rental .Rental_main .Rental_margin {
+  margin: 100px 0px;
+  text-align: center;
+}
+.CarRental .Rental .Rental_main .Rental_margin h2 {
+  color: #161922;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+.CarRental .Rental .Rental_main .Rental_margin p {
+  color: #303030;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  margin: 0px 165px;
+  letter-spacing: 1px;
+  margin-top: -15px;
+  display: inline-block;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe {
+  width: 100%;
+  margin-top: 50px;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding {
+  width: 33.33%;
+  float: left;
+  margin-bottom: -20px;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-image {
+  overflow: hidden;
+  position: relative;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-image img {
+  width: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-image img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  top: 0;
+  position: relative;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content {
+  width: 100%;
+  background: #fff;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-left {
+  float: left;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-left h4 {
+  color: #fd3e04;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 22px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0px;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-left p {
+  color: #303030;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: left;
+  margin: -25px 0px;
+  display: inherit;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-right p {
+  color: #a2a2a2;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: right;
+  margin-right: 0px;
+  margin-top: 10px;
+  display: inherit;
+}
+.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-right h5 {
+  color: #161922;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  text-align: right;
+  margin-top: 2px;
+}
+.CarRental .Rental .Rental_main .Rental_margin .Rental_bottom {
+  text-align: center;
+}
+.CarRental .Rental .Rental_main .Rental_margin .Rental_bottom a {
+  background: rgba(0, 0, 0, 0.04);
+  padding: 0px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 60px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 60px;
+  display: inline-block;
+}
+.CarRental .Rental .Rental_main .Rental_margin .Rental_bottom a:hover {
+  background: rgba(0, 0, 0, 0.07);
+  color: #000;
+}
+.CarRental .bottom-down {
+  width: 100%;
+  background: #F7F7F7;
+  border-bottom: 1px solid #DEDEDE;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin-bottom: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.CarRental .bottom-down .bottom-margin {
+  width: 80%;
+  margin: 0 auto;
+}
+.CarRental .bottom-down .bottom-margin .bottom-main {
+  width: 100%;
+}
+.CarRental .bottom-down .bottom-margin .bottom-main .down {
+  width: 33.33%;
+  float: left;
+}
+.CarRental .bottom-down .bottom-margin .bottom-main .down p {
+  color: #303030;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+}
+.CarRental .bottom-down .bottom-margin .bottom-main .down h5 {
+  color: #000000;
+  font-family: "Krona One", Arial, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+.CarRental .bottom-down .bottom-margin .bottom-main .down h5 i {
+  color: #fd3e04;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.CarRental .bottom-down .bottom-margin .bottom-main .down .bottom-bottom {
+  margin-top: -20px;
+}
+.CarRental .bottom-copy {
+  width: 100%;
+  background: #F7F7F7;
+  padding: 20px 0px;
+  margin-bottom: -16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.CarRental .bottom-copy p {
+  color: #303030;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  width: 80%;
+  margin: 0 auto;
+}
+.CarRental .bottom-copy p a {
+  color: #FD3E04;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.CarRental .bottom-copy p a:hover {
+  color: #d23100;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background: #fff;
+  }
+
+  .CarRental .navbar .navbar_main .navbar_right a {
+    margin-left: 34px;
+  }
+
+  .CarRental .banner .banner_main .banner_left .banner_left-main {
+    margin-left: 80px;
+  }
+
+  .CarRental .colour {
+    margin-top: -825px;
+    margin-bottom: -80px;
+  }
+
+  .CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left {
+    margin-bottom: 0px;
+  }
+
+  .CarRental .banner .banner_main .banner_bottom .bottom_main {
+    width: 86%;
+  }
+
+  .CarRental .section_group .section_group_main .wrap-inner .content h4 {
+    margin-left: 70px;
+  }
+
+  .CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-img span {
+    float: left;
+    margin: 0px 20px;
+  }
+
+  .CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span {
+    float: left;
+    margin: 0px 13px;
+  }
+
+  .CarRental .rent .rent_main .rent_margin .icon .icon_main {
+    margin-right: 48px;
+    width: 20%;
+  }
+
+  .CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding {
+    padding: 60px 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .CarRental .navbar .navbar_main .navbar_right a {
+    margin-left: 15px;
+  }
+
+  .CarRental .banner .banner_main .banner_left .banner_left-main {
+    margin-left: 70px;
+  }
+
+  .CarRental .banner .banner_main .banner_left .banner_left-main h2 {
+    font-size: 55px;
+  }
+
+  .CarRental .banner .banner_main .banner_left .banner_left-main .text {
+    font-size: 15px;
+  }
+
+  .CarRental .colour {
+    margin-top: -780px;
+    margin-bottom: -130px;
+  }
+
+  .CarRental .section_group .section_group_main {
+    width: 94%;
+  }
+
+  .CarRental .vehicle .vehicle_main .vehicle_margin .image {
+    width: 100%;
+    margin-top: -60px;
+  }
+
+  .CarRental .vehicle .vehicle_main {
+    width: 94%;
+  }
+
+  .CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span {
+    margin: 0px 12px;
+  }
+
+  .CarRental .rent .rent_main {
+    width: 94%;
+  }
+
+  .CarRental .rent .rent_main .rent_margin .icon .icon_main {
+    margin-right: 27px;
+    width: 22%;
+  }
+
+  .CarRental .rent .rent_main .rent_margin .icon .icon_main p {
+    margin: 2px;
+    margin-top: -15px;
+  }
+
+  .CarRental .Rental .Rental_main {
+    width: 96%;
+  }
+
+  .CarRental .bottom-down .bottom-margin {
+    width: 93%;
+  }
+
+  .CarRental .bottom-down .bottom-margin .bottom-main .down .bottom-bottom {
+    margin-top: 10px;
+  }
+
+  .CarRental .bottom-down .bottom-margin .bottom-main .down h5 {
+    margin: 0px;
+  }
+
+  .CarRental .bottom-down .bottom-margin .bottom-main .down p {
+    margin-top: 0px;
+  }
+
+  .CarRental .bottom-copy p {
+    width: 93%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .CarRental .navbar .navbar_main .navbar_left {
+    width: 30%;
+  }
+
+  .CarRental .navbar .navbar_main .navbar_right {
+    width: 68%;
+  }
+  .CarRental .navbar .navbar_main .navbar_right a {
+	margin-left: 6px;
+}
+
+  .CarRental .banner .banner_main .banner_right {
+    width: 50%;
+  }
+
+  .CarRental .banner .banner_main .banner_left {
+    width: 50%;
+  }
+
+  .CarRental .banner .banner_main .banner_left .banner_left-main {
+    margin-left: 55px;
+  }
+
+  .CarRental .banner .banner_main .banner_left .banner_left-main .layer {
+    width: 160px;
+  }
+
+  .CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left {
+    margin-top: -15px;
+  }
+
+  .CarRental .banner .banner_main .banner_bottom .bottom_main {
+    width: 86%;
+  }
+
+  .CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left {
+    margin-bottom: 0px;
+    width: 165px;
+    
+  }
+
+  .CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_left span  {
+    margin-top: -90px;
+    display: inherit;
+    float: none;
+	margin-left: 0px;
+  }
+
+  .CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_right img {
+    width: 40px;
+  }
+  .CarRental .section_group .section_group_main {
+		width: 90%;
+	}
+	.CarRental .section_group .section_group_main .wrap-inner .content h4 {
+		font-size: 16px;
+	}
+	.CarRental .section_group .section_group_main .wrap-inner .content p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper p {
+		font-size: 16px;
+		line-height: 22px;
+		margin-left: 80px;
+		margin-top: -90px;
+		width: 100px;
+		float: right;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper h4 {
+		width: 60px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-img span {
+		margin: 0px 10px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding h4 {
+		font-size: 15px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span {
+		margin: 0px 7px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span p {
+		font-size: 12px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .link_a_bottom p {
+		font-size: 15px;
+		line-height: 25px;
+		margin: 0px 130px;
+	}
+	.CarRental .rent .rent_main {
+		width: 90%;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main {
+		margin-right: 17px;
+		width: 22.5%;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main h4 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main p {
+		margin: 2px;
+		margin-top: -15px;
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin p {
+		font-size: 15px;
+		line-height: 24px;
+		margin: 0px 101px;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin h2 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+	.CarRental .Rental .Rental_main {
+		width: 94%;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box {
+		padding: 10px;
+	}
+	.CarRental .bottom-down .bottom-margin {
+		width: 90%;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down h5 {
+		font-size: 15px;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down p {
+		font-size: 15px;
+	}
+	.CarRental .bottom-copy p {
+		width: 90%;
+	}
+	.CarRental .colour {
+		margin-top: -835px;
+		margin-bottom: -90px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.CarRental .navbar .navbar_main .navbar_left {
+		width: 100%;
+	}
+	.CarRental .navbar .navbar_main .navbar_right {
+		width: 100%;
+	}
+	.CarRental .navbar .navbar_main .navbar_right a {
+		margin-left: 13px;
+	}
+	.CarRental .banner .banner_main .banner_left {
+		width: 60%;
+	}
+	.CarRental .banner .banner_main .banner_right {
+		width: 40%;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left p span {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.CarRental .banner .banner_main .banner_left .banner_left-main .layer .layer_left p img {
+		width: 20px;
+	}
+	.CarRental .banner .banner_main .banner_bottom .bottom_main .bottom_right img {
+		width: 30px;
+	}
+	.CarRental .colour {
+		margin-top: -800px;
+		margin-bottom: -115px;
+	}
+	.CarRental .section_group .section_group_main {
+		width: 80%;
+	}
+	.CarRental .section_group .section_group_main .wrap-inner .content {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.CarRental .section_group .section_group_main .wrap-inner {
+		margin: 80px 0;
+	}
+	.CarRental .vehicle .vehicle_main {
+		width: 90%;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content {
+		width: 100%;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper h4 {
+		width: 120px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .upper p {
+		font-size: 15px;
+		 line-height: 22px;
+		margin-left: 0px;
+		margin-top: 0px; 
+		margin-top: 30px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-write span {
+		width: 100%;
+		margin-top: -20px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .image .image_content .image_padding .describe .describe-img span {
+		width: 100%;
+		margin: 10px 0;
+		margin-left: 210px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .link_a_bottom p {
+		font-size: 13px;
+		line-height: 20px;
+		margin: 0px 80px;
+	}
+	.CarRental .vehicle .vehicle_main .vehicle_margin .link_a_bottom .link_bottom {
+		font-size: 14px;
+		padding: 6px 20px;
+	}
+	.CarRental .rent .rent_main {
+		width: 84%;
+	}
+	.CarRental .rent .rent_main .rent_margin h2 {
+		font-size: 40px;
+		line-height: 48px;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main {
+		width: 100%;
+		margin-top:30px;
+	}
+	.CarRental .rent {
+		height: 1400px;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main h4 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.CarRental .rent .rent_main .rent_margin .icon .icon_main p {
+		margin-top: -6px;
+		font-size: 13px;
+		line-height: 23px;
+	}
+	.CarRental .Rental .Rental_main {
+		width: 84%;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin h2 {
+		font-size: 36px;
+		line-height: 42px;
+		margin: 0px 60px;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin p {
+		font-size: 13px;
+		line-height: 21px;
+		margin: 20px 70px;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding {
+		width: 100%;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-right h5 {
+		font-size: 14px;
+		text-align: right;
+		margin-top: -25px;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-left {
+		margin-top: 20px;
+	}
+		.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-right {
+			float: right;
+			margin-top: 100px;
+		}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-left h4 {
+		font-size: 18px;
+	}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-left p {
+		font-size: 13px;
+		line-height: 20px;	
+	}
+	.CarRental .Rental .Rental_main .Rental_margin .image_decribe .box_padding .box .box-content .box-left p {
+		font-size: 13px;
+		line-height: 20px;
+		padding:0px 16px;
+	}
+	.CarRental .bottom-down .bottom-margin {
+		width: 84%;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down p {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down h5 {
+		font-size: 14px;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down h5 i {
+		margin-right: 10px;
+		font-size: 14px;
+	}
+	.CarRental .bottom-down .bottom-margin .bottom-main .down .bottom-bottom {
+		font-size: 14px;
+
+	}
+	.CarRental .bottom-copy p {
+		width: 75%;
+		font-size: 13px;
+		margin-top:40px;
+	}
+
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*# sourceMappingURL=style.css.map */
